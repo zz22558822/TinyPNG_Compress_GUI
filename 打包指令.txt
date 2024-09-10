@@ -1,0 +1,2 @@
+pyinstaller -F -i LOGO.ico ".\TinyPNG_Compress.py" -n "TinyPNG 圖片壓縮" --onefile
+pyinstaller -F -w --add-data ".\LOGO.ico;img" -i ".\LOGO.ico" ".\TinyPNG_Compress_GUI.py" -n "TinyPNG 圖片壓縮 GUI"
